@@ -1,0 +1,90 @@
+# Build folders
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+.history/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ASP.NET specific
+wwwroot/lib/
+wwwroot/dist/
+wwwroot/node_modules/
+node_modules/
+
+# Logs
+*.log
+logs/
+log/
+
+# Database files
+*.db
+*.mdf
+*.ldf
+*.sqlite
+
+# Backup and temp files
+*.bak
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+
+# Publish output
+*.Publish.xml
+publish/
+[Tt]icket[Mm]aster/bin/
+[Tt]icket[Mm]aster/obj/
+[Tt]icket[Mm]aster/Database/*.bak
+
+# Environment and secrets
+.env
+.env.*
+appsettings.Development.json
+secrets.json
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet packages
+*.nupkg
+# Uncomment if you want to ignore NuGet restore results
+# /packages/
+.nuget/
+
+# Temporary files from tools
+project.lock.json
+project.fragment.lock.json
+
+# Rider, VS, and VSCode caches
+.vs/
+.vscode/
+.idea/
+
+# Backup files from publishing
+Backup*/
