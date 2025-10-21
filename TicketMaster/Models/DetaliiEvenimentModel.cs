@@ -3,8 +3,8 @@ namespace Models
 {
     public class DetaliiEvenimentModel
     {
-        private int pachetId { get; set; }
-        private int evenimentId { get; set; }
+        public int pachetId { get; private set; }
+        public int evenimentId { get; private set; }
         public int numarLocuri { get; set; }
     }
 }
