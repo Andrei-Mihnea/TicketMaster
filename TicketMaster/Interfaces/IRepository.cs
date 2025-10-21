@@ -6,7 +6,5 @@ namespace Interfaces
         public IList<T> GetAllMembers();//Read
         public void Update(T member);//Update
         public void Delete(T member);//Delete
-
-
     }
 }
