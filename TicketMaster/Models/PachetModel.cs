@@ -1,6 +1,6 @@
 namespace Models
 {
-    public class PacheteEvenimenteModel
+    public class PachetModel// pachet table dto
     {
         public int id { get;private set; }
         public int idOwner { get;private set; }

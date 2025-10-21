@@ -1,7 +1,7 @@
 
 namespace Models
 {
-    public class EvenimentModel
+    public class EvenimentModel//eveniment table dto
     {
         public int id { get; private set; }
         public int idOwner{ get; private set; }
